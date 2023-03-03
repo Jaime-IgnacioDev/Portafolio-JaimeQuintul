@@ -308,25 +308,26 @@
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <form action="https://formspree.io/f/meqwkzjv" method="POST">
-              <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                  <input type="text" placeholder="Tú Nombre" name="nombre">
-                  <input type="number" placeholder="Número telefónico" name="telefono">
-                  <input type="email" placeholder="Dirección de correo" name="correo">
-                  <input type="text" placeholder="Tema" name="tema">
-                  <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                  <button type="submit">
-                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                    <span class="overlay"></span>
-                  </button>
-                </div>
+          <h2>CONTACTO</h2>
+          <form id="formulario" action="https://formspree.io/f/meqwkzjv" method="POST">
+            <div class="fila">
+              <!-- Formulario -->
+              <div class="col">
+                <input type="text" placeholder="Tú Nombre" name="nombre" id="nombre">
+                <input type="number" placeholder="Número telefónico" name="telefono" id="telefono">
+                <input type="email" placeholder="Dirección de correo" name="correo" id="correo">
+                <input type="text" placeholder="Tema" name="tema">
+                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
+                <button type="submit">
+                  Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                  <span class="overlay"></span>
+                </button>
               </div>
-            </form>
-          </div>
-    </section>
+            </div>
+          </form>
+        </div>
+      </section>
+      
 
     <!-- footer -->
     <footer>

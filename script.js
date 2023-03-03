@@ -15,3 +15,18 @@ function seleccionar(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
+
+function enviarFormulario(event) {
+    var nombre = document.getElementById('nombre').value;
+    var telefono = document.getElementById('telefono').value;
+    var correo = document.getElementById('correo').value;
+    var mensaje = document.getElementById('mensaje').value;
+  
+    if (nombre === '' || telefono === '' || correo === '' || mensaje === '') {
+      alert('Por favor completa todos los campos.');
+      event.preventDefault();
+    }
+  }
+  
+  document.getElementById('formulario').addEventListener('submit', enviarFormulario);
+  

@@ -125,8 +125,9 @@ html{
 .sobremi .contenido-seccion p{
     font: 18px;
     line-height: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
+
 }
 .sobremi .contenido-seccion p span{
     color: #b6401c;
@@ -459,7 +460,7 @@ h2 {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #e03636;
     z-index: -1;
     transition: 1s;
 }
@@ -477,6 +478,10 @@ footer{
 }
 footer .redes{
     margin-bottom: 20px;
+}
+
+footer .redes a:hover{
+    background-color: #e63030;
 }
 footer .redes a{
     color: #fff;

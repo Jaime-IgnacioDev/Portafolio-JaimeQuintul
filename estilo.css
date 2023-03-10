@@ -210,6 +210,47 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+
+/* SECCION CERTIFICADOS*/
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-item {
+    position: relative;
+    margin: 10px;
+    width: 300px;
+}
+
+.galeria-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.galeria-item:hover img {
+    transform: scale(1.1);
+}
+
+.galeria-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px;
+}
+
+.galeria-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+ 
 /* SECCION S K I L L S */
 
 section {
